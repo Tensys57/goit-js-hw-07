@@ -6,9 +6,9 @@ const galleryCollection = galleryItems.reduce(
   (result, item) =>
     result +
     `<li class="gallery_item">
-<a class="gallery_link" href=${"item.original"}>
+<a class="gallery__link" href=${"item.original"}>
   <img
-    class="gallery_image"
+    class="gallery__image"
     src=${item.preview}
     data-source=${item.original}
     alt="${item.description}"
